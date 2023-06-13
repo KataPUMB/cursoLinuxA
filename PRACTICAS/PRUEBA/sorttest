@@ -1,0 +1,5 @@
+#!bin/bash
+ls -l /etc |sort -k 8 -n |grep 2020  | grep -w dic | sort -k 7 -n > filtrado 2020
+ls -l /etc |sort -k 8 -n |grep 2021  | grep -w dic | sort -k 7 -n >> filtrado 2021
+
+
